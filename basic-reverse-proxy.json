@@ -1,0 +1,13 @@
+{
+  "addr": ":9090",
+  "auth": {
+    "username": "aname",
+    "password": "apass"
+  },
+  "entries": [
+    { "upstream":"http://127.0.0.1:9100/metrics", "path":"/node_exporter" },
+    { "upstream":"http://127.0.0.1:9100/metrics", "path":"/two" },
+    { "upstream":"http://127.0.0.1:9990/metrics", "path":"/three" }
+
+  ]
+}
